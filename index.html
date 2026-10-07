@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> List </h1>
+    <style> 
+        h1{
+            text-align: center;
+            border: 5px solid #09cc40; 
+            border-radius: 10px;
+            padding: 10px;
+            background: lightgreen;
+            text-transform: uppercase;
+            font-size: 30px;
+        }
 
+    </style>
+
+    <h2>
+        Name<input type="text"><br>
+        Roll no<input type="number"><br>
+        Email<input type="email"><br>
+        Phone<input type="number"><br>
+        Photo<input type="file"><br>
+    </h2>
+
+    <label for="course"> Course </label> 
+    <select id="course" name="courses">
+        <option value="toan"> Math</option>
+        <option value="khoa hoc"> Science</option>
+        <option value="vat ly"> Physical</option>
+        <option value="am nhac"> Music</option>
+    </select>
+
+    <h2> 
+        Department: 
+    </h2>
+    <label for="a"> IT </label> 
+        <input type="radio" id="a" name="Roll" value="IT">
+              
+        <label for="b"> CSE </label>
+        <input type="radio" id="b" name="Roll" value="CSE">
+
+        <label for="c"> CiVil</label>
+        <input type="radio" id="c" name="Roll" value="CiVil">
+
+    <div class="nav">
+        <a class="active" href="#"> Home </a>
+        <a href="#"> About </a>
+        <a href="#"> Blogs </a>
+        <a href="#"> Contract </a>
+    </div>
+
+    <h2 class="menu"> MENU </h2>
+    <select class="sle">
+        <option> Pizza </option>
+        <option> Soup </option>
+        <option> Fries </option>
+        <option> Hambuger </option>
+    </select>
+</body>
+</html>
